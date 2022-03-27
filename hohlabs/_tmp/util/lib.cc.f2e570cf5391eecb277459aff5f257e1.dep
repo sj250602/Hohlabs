@@ -1,0 +1,13 @@
+_tmp/util/lib.cc.f2e570cf5391eecb277459aff5f257e1.dep  ./_tmp/util/lib.f2e570cf5391eecb277459aff5f257e1.o: \
+ util/lib.cc util/config.h \
+ /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h \
+ /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint-gcc.h \
+ /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h
+
+util/config.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/stdint-gcc.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h:

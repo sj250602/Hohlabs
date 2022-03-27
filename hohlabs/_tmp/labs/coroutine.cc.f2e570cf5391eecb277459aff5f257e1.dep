@@ -1,0 +1,216 @@
+_tmp/labs/coroutine.cc.f2e570cf5391eecb277459aff5f257e1.dep  ./_tmp/labs/coroutine.f2e570cf5391eecb277459aff5f257e1.o: \
+ labs/coroutine.cc labs/coroutine.h labs/shell.h util/config.h \
+ /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h \
+ /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint-gcc.h \
+ /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h util/debug.h \
+ util/strong_typedef.hpp /usr/include/boost/config.hpp \
+ /usr/include/boost/config/user.hpp \
+ /usr/include/boost/config/detail/select_compiler_config.hpp \
+ /usr/include/boost/config/compiler/gcc.hpp /usr/include/c++/9/cstddef \
+ /usr/include/x86_64-linux-gnu/c++/9/32/bits/c++config.h \
+ /usr/include/x86_64-linux-gnu/c++/9/32/bits/os_defines.h \
+ /usr/include/features.h /usr/include/stdc-predef.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/bits/long-double.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-32.h \
+ /usr/include/x86_64-linux-gnu/c++/9/32/bits/cpu_defines.h \
+ /usr/include/boost/config/detail/select_stdlib_config.hpp \
+ /usr/include/boost/config/stdlib/libstdcpp3.hpp /usr/include/unistd.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+ /usr/include/bits/types.h /usr/include/bits/timesize.h \
+ /usr/include/bits/typesizes.h /usr/include/bits/time64.h \
+ /usr/include/bits/confname.h /usr/include/bits/getopt_posix.h \
+ /usr/include/bits/getopt_core.h /usr/include/bits/unistd.h \
+ /usr/include/bits/unistd_ext.h \
+ /usr/include/boost/config/detail/select_platform_config.hpp \
+ /usr/include/boost/config/platform/linux.hpp /usr/include/c++/9/cstdlib \
+ /usr/include/stdlib.h /usr/include/bits/libc-header-start.h \
+ /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+ /usr/include/bits/floatn.h /usr/include/bits/floatn-common.h \
+ /usr/include/bits/types/locale_t.h /usr/include/bits/types/__locale_t.h \
+ /usr/include/sys/types.h /usr/include/bits/types/clock_t.h \
+ /usr/include/bits/types/clockid_t.h /usr/include/bits/types/time_t.h \
+ /usr/include/bits/types/timer_t.h /usr/include/bits/stdint-intn.h \
+ /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/bits/endianness.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/uintn-identity.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/types/sigset_t.h \
+ /usr/include/bits/types/__sigset_t.h \
+ /usr/include/bits/types/struct_timeval.h \
+ /usr/include/bits/types/struct_timespec.h /usr/include/bits/select2.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/bits/thread-shared-types.h \
+ /usr/include/bits/pthreadtypes-arch.h /usr/include/bits/struct_mutex.h \
+ /usr/include/bits/struct_rwlock.h /usr/include/alloca.h \
+ /usr/include/bits/stdlib-bsearch.h /usr/include/bits/stdlib-float.h \
+ /usr/include/bits/stdlib.h /usr/include/c++/9/bits/std_abs.h \
+ /usr/include/boost/config/detail/posix_features.hpp \
+ /usr/include/boost/config/detail/suffix.hpp \
+ /usr/include/boost/config/helper_macros.hpp util/operators.hpp \
+ /usr/include/boost/detail/workaround.hpp \
+ /usr/include/boost/config/workaround.hpp util/coroutine.h
+
+labs/coroutine.h:
+
+labs/shell.h:
+
+util/config.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/stdint-gcc.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h:
+
+util/debug.h:
+
+util/strong_typedef.hpp:
+
+/usr/include/boost/config.hpp:
+
+/usr/include/boost/config/user.hpp:
+
+/usr/include/boost/config/detail/select_compiler_config.hpp:
+
+/usr/include/boost/config/compiler/gcc.hpp:
+
+/usr/include/c++/9/cstddef:
+
+/usr/include/x86_64-linux-gnu/c++/9/32/bits/c++config.h:
+
+/usr/include/x86_64-linux-gnu/c++/9/32/bits/os_defines.h:
+
+/usr/include/features.h:
+
+/usr/include/stdc-predef.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/bits/long-double.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-32.h:
+
+/usr/include/x86_64-linux-gnu/c++/9/32/bits/cpu_defines.h:
+
+/usr/include/boost/config/detail/select_stdlib_config.hpp:
+
+/usr/include/boost/config/stdlib/libstdcpp3.hpp:
+
+/usr/include/unistd.h:
+
+/usr/include/bits/posix_opt.h:
+
+/usr/include/bits/environments.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/timesize.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/bits/time64.h:
+
+/usr/include/bits/confname.h:
+
+/usr/include/bits/getopt_posix.h:
+
+/usr/include/bits/getopt_core.h:
+
+/usr/include/bits/unistd.h:
+
+/usr/include/bits/unistd_ext.h:
+
+/usr/include/boost/config/detail/select_platform_config.hpp:
+
+/usr/include/boost/config/platform/linux.hpp:
+
+/usr/include/c++/9/cstdlib:
+
+/usr/include/stdlib.h:
+
+/usr/include/bits/libc-header-start.h:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/bits/floatn.h:
+
+/usr/include/bits/floatn-common.h:
+
+/usr/include/bits/types/locale_t.h:
+
+/usr/include/bits/types/__locale_t.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/bits/types/clock_t.h:
+
+/usr/include/bits/types/clockid_t.h:
+
+/usr/include/bits/types/time_t.h:
+
+/usr/include/bits/types/timer_t.h:
+
+/usr/include/bits/stdint-intn.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/bits/endianness.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/bits/uintn-identity.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/types/sigset_t.h:
+
+/usr/include/bits/types/__sigset_t.h:
+
+/usr/include/bits/types/struct_timeval.h:
+
+/usr/include/bits/types/struct_timespec.h:
+
+/usr/include/bits/select2.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/bits/thread-shared-types.h:
+
+/usr/include/bits/pthreadtypes-arch.h:
+
+/usr/include/bits/struct_mutex.h:
+
+/usr/include/bits/struct_rwlock.h:
+
+/usr/include/alloca.h:
+
+/usr/include/bits/stdlib-bsearch.h:
+
+/usr/include/bits/stdlib-float.h:
+
+/usr/include/bits/stdlib.h:
+
+/usr/include/c++/9/bits/std_abs.h:
+
+/usr/include/boost/config/detail/posix_features.hpp:
+
+/usr/include/boost/config/detail/suffix.hpp:
+
+/usr/include/boost/config/helper_macros.hpp:
+
+util/operators.hpp:
+
+/usr/include/boost/detail/workaround.hpp:
+
+/usr/include/boost/config/workaround.hpp:
+
+util/coroutine.h:
